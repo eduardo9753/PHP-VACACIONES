@@ -12,9 +12,9 @@ class ConexionOracle
 
     private $configuracion = [
         'drive'    => 'oci',
-        'host'     => 'PRODUCCIONSN',
-        'username' => 'cagarcia',
-        'password' => 'garci123++',
+        'host'     => '',
+        'username' => '',
+        'password' => '',
     ];
 
     private $opt = [

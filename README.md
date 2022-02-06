@@ -34,7 +34,7 @@ CREATE TABLE dbo.usuario
     perfil          VARCHAR(100) NULL,
     area_usuario    VARCHAR(100) NULL,
     foto            VARCHAR(100) NULL default 'foto.jpg',
-	estado          CHAR(1),
+    estado          CHAR(1),
     created_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -52,8 +52,8 @@ CREATE TABLE dbo.vacaciones
     vacaciones_inicio DATETIME NULL,
     vacaciones_fin    DATETIME NULL,
     id_usuario        INT NOT NULL,
-	id_estado         INT NOT NULL,
-	id_trabajador     INT NOT NULL,
+    id_estado         INT NOT NULL,
+    id_trabajador     INT NOT NULL,
     created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -64,8 +64,8 @@ CREATE TABLE dbo.vacaciones
 CREATE TABLE dbo.estado
 (
     id_estado        INT PRIMARY KEY IDENTITY (1, 1),
-	estado           VARCHAR(50) NOT NULL,
-	created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    estado           VARCHAR(50) NOT NULL,
+    created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 
@@ -75,15 +75,15 @@ CREATE TABLE dbo.estado
 CREATE TABLE dbo.trabajador
 (
     id_trabajador         INT PRIMARY KEY IDENTITY (1, 1),
-	dni                   VARCHAR(15) NOT NULL,
-	nombres               VARCHAR(50) NOT NULL,
-	apellido_uno          VARCHAR(50) NOT NULL,
-	apellido_dos          VARCHAR(50) NOT NULL,
-	puesto                VARCHAR(50) NOT NULL,
-	fecha_inicio_labores  DATE NOT NULL,
-	id_area               INT NOT NULL,
-	estado                VARCHAR(30) NOT NULL,
-	created_at            DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    dni                   VARCHAR(15) NOT NULL,
+    nombres               VARCHAR(50) NOT NULL,
+    apellido_uno          VARCHAR(50) NOT NULL,
+    apellido_dos          VARCHAR(50) NOT NULL,
+    puesto                VARCHAR(50) NOT NULL,
+    fecha_inicio_labores  DATE NOT NULL,
+    id_area               INT NOT NULL,
+    estado                VARCHAR(30) NOT NULL,
+    created_at            DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 -----------------------------------------------------------------------
@@ -92,8 +92,8 @@ CREATE TABLE dbo.trabajador
 CREATE TABLE dbo.area
 (
     id_area        INT PRIMARY KEY IDENTITY (1, 1),
-	area           VARCHAR(50) NOT NULL,
-	created_at     DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    area           VARCHAR(50) NOT NULL,
+    created_at     DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 

@@ -15,7 +15,22 @@ HERRAMIENTAS :
 3. CONTROLADOR: intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 
 ## Imagenes
-
+- Calendario de fechas.
+![menu_0](https://user-images.githubusercontent.com/68178186/152697761-1e6742e3-a902-48f2-96b3-e6c201785969.PNG)
+- Listado de Areas.
+![area_1 1](https://user-images.githubusercontent.com/68178186/152697770-f55904a2-4ddb-467f-b680-409261fe0e6b.PNG)
+- Registro de Areas.
+![area_1 2](https://user-images.githubusercontent.com/68178186/152697781-3f88721e-eaab-4ec9-91e3-5b9769e196b7.PNG)
+- Listado de Trabajadores.
+![trabajador1 1](https://user-images.githubusercontent.com/68178186/152697786-6d804195-c6cd-4db2-a1e1-eee842089066.PNG)
+- Registro de Trabajadores.
+![trabajador1 2](https://user-images.githubusercontent.com/68178186/152697787-8134f2c1-7343-47d4-ab82-628012054e8f.PNG)
+- Graficos Estadisticos.
+![grafico_1 1](https://user-images.githubusercontent.com/68178186/152697784-e5f80f07-491b-4a07-9e46-7adb33720359.PNG)
+- Profile User.
+![profile_1 1](https://user-images.githubusercontent.com/68178186/152697785-b0c70ecc-57f1-48e6-a650-2cbaf4d5273f.PNG)
+- Registro de Vacaciones.
+![vacaciones_1 1](https://user-images.githubusercontent.com/68178186/152697788-4410c147-3ddd-4743-bb5e-205b5f310ae7.PNG)
 
 ### SCRIPT DE LA BASE DE DATOS
 ```sql
